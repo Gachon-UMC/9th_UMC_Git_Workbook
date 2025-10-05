@@ -1,3 +1,4 @@
+
 [개인 노션 정리](https://splashy-bovid-12f.notion.site/Week01-2773db583b288063bd00dd4fcef170a2)
 
 ## **1. 라이브러리와 프레임워크의 차이**
@@ -353,3 +354,48 @@ export default {
 - https://witch.work/ko/posts/javascript-why-typeof-null-is-object
 - https://miracleground.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%8A%94-%EC%99%9C-%EC%8B%B1%EA%B8%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%96%88%EC%9D%84%EA%B9%8C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%8A%A4%EB%A0%88%EB%93%9C-%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%8F%99%EA%B8%B0-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%97%94%EC%A7%84-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%A3%A8%ED%94%84
 - https://velog.io/@ctdlog/React-DOM%EC%9D%B4%EB%9E%80-Virtual-DOM%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0
+=======
+# Week 1
+
+## Git이란?
+- 여러 사용자가 같은 파일의 작업을 관리할 수 있도록 돕는 **분산 버전 관리 시스템**  
+- 코드를 **안전하게 기록하고 되돌릴 수 있게 하는 도구**
+
+---
+
+## Git의 3가지 영역
+1. **Working Directory**  
+   → 실제로 내가 작업하는 공간  
+2. **Staging Area**  
+   → 커밋하기 전에 변경 내용을 잠시 올려두는 공간  
+3. **Local Repository**  
+   → 최종적으로 커밋이 저장되는 나의 로컬 저장소
+
+---
+
+## Git 기본 흐름
+1. 원격 저장소(Remote)와 로컬 연결  
+2. `.gitignore`로 추적하지 않을 파일 관리  
+3. `add`, `commit`, `push`로 파일 상태 관리  
+4. `git status`로 현재 상태 확인
+
+---
+
+## 브랜치(Branch)
+- 독립적인 작업 공간으로, 여러 기능을 동시에 개발할 때 사용  
+- 명령어  
+  - `git branch` : 브랜치 목록 보기  
+  - `git checkout -b 브랜치명` : 새 브랜치 생성 + 이동  
+  - `git merge` : 브랜치 병합  
+
+---
+
+## 커밋 기록 확인
+- `git log` : 커밋 내역 조회  
+- `HEAD` : 현재 브랜치의 최신 커밋을 가리킴  
+
+---
+
+## Issue와 PR (Pull Request)
+- **Issue** : 해야 할 일이나 버그를 기록하고 관리  
+- **Pull Request(PR)** : 브랜치에서 작업한 내용을 메인 브랜치에 반영할 때 사용  
