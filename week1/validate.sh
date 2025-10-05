@@ -54,7 +54,8 @@ if git log --pretty=format:"%H" -- ignore.md | grep -q '.'; then
 fi
 
 if $week1_committed && ! $ignore_committed; then
-    echo "   ✅ week1.md 파일이 커밋되었습니다.\n   ✅ ignore.md 파일이 정상적으로 .gitignore에 추가되었습니다."
+    echo "   ✅ week1.md 파일이 커밋되었습니다.
+   ✅ ignore.md 파일이 정상적으로 .gitignore에 추가되었습니다."
 else
     if ! $week1_committed; then
         echo "   ❌ week1.md 파일이 커밋되지 않았습니다."
