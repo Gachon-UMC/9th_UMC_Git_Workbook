@@ -47,3 +47,4 @@ commit을 통해 파일의 변경 사항을 기록하는 곳을 Local Repository
 이슈는 크게 *제목과 내용, Assignees와 Labels, Projects, Milestone, Development*로 나누어 볼 수 있습니다.
 
 2. 내 작업을 메인 브랜치에 반영할 때는? Pull Request 올리기
+- git log : 커밋 해시와 함께 커밋 일시, 생성한 사람을 보여준다.
