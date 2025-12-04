@@ -1,3 +1,4 @@
+# shellcheck disable=SC2148
 if [ "$(git reflog | grep -c "merge task-ff: Fast-forward")" -eq 0 ]; then
     echo "   ✅ fast-forward merge가 확인되었습니다."
 else

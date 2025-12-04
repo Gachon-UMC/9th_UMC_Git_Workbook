@@ -39,3 +39,4 @@ chmod +x ./week(주차 번호)/validate.sh
 
 ---
 Copyright © 2024 Lee Youjin All rights reserved.
+temp line for pull-test merge
